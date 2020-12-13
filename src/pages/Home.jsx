@@ -5,11 +5,7 @@ import styled from 'styled-components';
 const Home = () => {
   return (
     <StyledHome>
-      <Header>
-        Home Page
-        <br />
-        9:52:16
-      </Header>
+      <Header>unSplash App</Header>
     </StyledHome>
   );
 };
