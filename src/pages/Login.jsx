@@ -63,6 +63,9 @@ const Login = () => {
             {isLoading ? 'Loading' : 'Log In'}
           </StyledInput>
         </StyledForm>
+        <Typography variant='p' component='p' gutterBottom gutterTop>
+          harelpanker@gmail.com - 123456
+        </Typography>
       </Container>
     </Formik>
   );
