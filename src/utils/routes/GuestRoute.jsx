@@ -7,7 +7,11 @@ const GuestRoute = ({ children, ...rest }) => {
 
   if (!isLoggedIn) return <Route {...rest}>{children}</Route>;
 
-  return <Redirect to='/' />;
+  return (
+    <AnimatedRoute>
+      <Redirect to='/' />;
+    </AnimatedRoute>
+  );
 };
 
 export default GuestRoute;
