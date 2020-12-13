@@ -61,11 +61,10 @@ const SignIn = () => {
           <StyledInput type='submit'>
             {isLoading ? 'Loading' : 'Sign Up'}
           </StyledInput>
-
-          <Typography variant='p' component='p' gutterBottom gutterTop>
-            harelpanker@gmail.com - 123456
-          </Typography>
         </StyledForm>
+        <Typography variant='p' component='p' gutterBottom gutterTop>
+          harelpanker@gmail.com - 123456
+        </Typography>
       </Container>
     </Formik>
   );
