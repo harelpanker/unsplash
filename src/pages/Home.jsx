@@ -25,5 +25,9 @@ const Header = styled(motion.h1)`
   letter-spacing: -1px;
   margin-bottom: 50px;
   text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 export default Home;
